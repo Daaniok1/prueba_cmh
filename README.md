@@ -1,4 +1,4 @@
-#Validador de pruebas locales del sistema CMH
+#Automatización de pruebas con Validador local
 
 Macros desarrolladas en Excel con el fin de validar si las pruebas realizadas localmente han sido correctas. Dependiendo del Excel que se abra **cmh_pruebas_locales(Errores)** o **cmh_pruebas_locales(SinErrores)** se realizarán las pruebas correspondientes.
 
@@ -33,7 +33,7 @@ Asegurarse de que dentro de las subcarpetas se encuentre un directorio con el no
 
 ![imagen2](images/img2.png)
 
-_No se recomienda importar más de un Tipo de Registro simultáneamente, ya que puede ocasionar errores el sistema_
+_No se recomienda importar más de un Tipo de Registro simultáneamente, ya que puede ocasionar errores al sistema_
 
 * **Paso 3**: El sistema creará varias hojas en el libro de Excel, estas corresponden a cada archivo importado (No hay necesidad de revisar cada hoja creada). Luego, presionar el botón verde `Extraer datos`
 
@@ -56,7 +56,10 @@ _Ejemplo:_
  * En caso de no querer utilizar la ruta recomendada (`C:\`), entrar a modificar el código para cambiar las rutas.
 
  ![imagen5](images/img5.png)
+ _Para el archivo **cmh_pruebas_locales(Errores).xlsm**_
 
+ ![imagen8](images/img8.png)
+  _Para el archivo **cmh_pruebas_locales(SinErrores).xlsm**_
 
  ![imagen6](images/img6.png)
 
@@ -74,6 +77,6 @@ ___De todos modos, en el Excel `Plan de Pruebas` se marcarán estas mismas prueb
 
  ![imagen7](images/img7.png)
 
-_Como se puede ver en la imagen anterior, las pruebas que corresponden a pruebas "Manuales" están destacadas con color Celeste._
+_Como se puede ver en la imagen anterior, las pruebas que corresponden a pruebas "Manual" están destacadas con color Celeste._
 
 
