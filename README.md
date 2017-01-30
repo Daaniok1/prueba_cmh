@@ -4,6 +4,8 @@ Macros desarrolladas en Excel con el fin de validar si las pruebas realizadas lo
 
 ___Nota: Para el desarrollo de las pruebas se han eliminado algunas carpetas que contenían archivos, todo esto con el fin de hacer pruebas del sistema de manera más eficiente y a la vez que el archivo no pese demasiado___
 
+***
+
 ## Requisitos previos
 * Tener instalado Excel versiones 2013 o posteriores (recomendado)
 * Habilitar las opciones de desarrollador.
@@ -26,20 +28,16 @@ Asegurarse de que dentro de las subcarpetas se encuentre un directorio con el no
 ## Ejecución
 
 1. Abrir ambos archivos Excel (**cmh_pruebas_locales(Errores)** o **cmh_pruebas_locales(SinErrores)**).
-
 2.  Presionar el botón `Importar Archivo`.  Elegir el Tipo de Registro que se desea abrir y presionar `Aceptar`.
 
 ![imagen2](images/img2.png)
 
 _No se recomienda importar más de un Tipo de Registro simultáneamente, ya que puede ocasionar errores el sistema_
-
 3.  El sistema creará varias hojas en el libro de Excel, estas corresponden a cada archivo importado (No hay necesidad de revisar cada hoja creada). Luego, presionar el botón verde `Extraer datos`
 
 
 ![imagen3](images/img3.png)
-
 4. Presionar el botón rojo `Limpiar Hojas`, y repetir los pasos anteriores si se desean agregar más archivos.
-
 5. Finalmente, presionar el botón `Plan de pruebas` para abrir el archivo de plan de pruebas que deberá estar alojado dentro de la carpeta raíz de de los archivos.
 _Ejemplo:_ 
 > C:\CMH\
@@ -58,13 +56,19 @@ _Ejemplo:_
 
  ![imagen6](images/img6.png)
 
+
+***
+
 ## Importante!
 
 Existen algunas pruebas que no son posible de verificar mediante el sistema Excel, ya que estas requieren que sean un trabajo de forma manual. 
-Las pruebas son: **zxc**
+_Las pruebas que deben realizarse de forma manual, se encuentran adjuntas en un archivo .txt `pruebas_manuales.txt`_
 
-__De todos modos, en el Excel `Plan de Pruebas` se marcarán estas mismas pruebas con la leyenda "Manual".
+
+
+___De todos modos, en el Excel `Plan de Pruebas` se marcarán estas mismas pruebas con la leyenda "Manual".___
 
  ![imagen7](images/img7.png)
 
-_Como se puede ver en la imagen anterior, las pruebas que corresponden a pruebas "Manuales" están destacadas con color Celeste.
+_Como se puede ver en la imagen anterior, las pruebas que corresponden a pruebas "Manuales" están destacadas con color Celeste._
+
